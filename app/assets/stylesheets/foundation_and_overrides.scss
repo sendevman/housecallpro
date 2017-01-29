@@ -1,3 +1,5 @@
+@import 'housecall_defaults.scss';
+
 // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
@@ -33,7 +35,7 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-grid-classes: $include-html-classes;
 // $include-xl-html-grid-classes: false;
 
-// $row-width: rem-calc(1000);
+$row-width: 100%;
 // $total-columns: 12;
 
 // Global
@@ -44,10 +46,10 @@ $include-html-global-classes: $include-html-classes;
 
 // We use these to control various global styles
 // $body-bg: #fff;
-// $body-font-color: #222;
-$body-font-family: Lato 300 400 700 900;
-$font-weight-normal:normal;
-// $body-font-weight: $font-weight-normal;
+$body-font-color: $body-font-dark;
+$body-font-family: Lato, helvetica, arial, sans-serif !important;
+$font-weight-normal: 300;
+$body-font-weight: 300;
 // $body-font-style: normal;
 
 // We use this to control font-smoothing
@@ -59,7 +61,7 @@ $font-weight-normal:normal;
 // $default-float: left;
 
 // We use these as default colors throughout
-$primary-color: #008CBA;
+$primary-color: $pro-blue;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -126,7 +128,7 @@ $primary-color: #008CBA;
 // $header-font-family: $body-font-family;
 // $header-font-weight: $font-weight-normal;
 // $header-font-style: normal;
-// $header-font-color: #222;
+$header-font-color: $header-font-dark;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
@@ -1192,7 +1194,7 @@ $sub-nav-active-cursor: default;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-// $topbar-bg-color: #333;
+$topbar-bg-color: #f7f7f7;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
