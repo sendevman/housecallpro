@@ -7,7 +7,7 @@ gem 'mysql2'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'foundation-rails'
-
+gem 'thin'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -15,5 +15,4 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
 
