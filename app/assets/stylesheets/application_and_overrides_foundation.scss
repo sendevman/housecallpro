@@ -34,6 +34,13 @@
   font-size: 1.4rem;
 }
 
+.TM {
+  font-size: .3rem;
+  vertical-align: top;
+  line-height: 37px;
+}
+
+
 ////// ~ HOMEPAGE ~ //////
 
 div#user-intro {
@@ -90,9 +97,19 @@ div#pro-intro {
   border-color: $body-font-dark;
 }
 
+.button-homepage.green {
+  color: $consumer-secondary-green;
+  border-color: $consumer-secondary-green;
+}
+
 .button-homepage.blue {
   color: $pro-blue;
   border-color: $pro-blue;
+}
+
+.button-logo {
+  margin: .67rem;
+  margin-right: .6rem;
 }
 
 ////// ~ SPACING ~ //////
