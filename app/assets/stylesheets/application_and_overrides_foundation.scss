@@ -10,32 +10,28 @@
 .lato-light {
   font-weight: 300;
 }
-.dark-font-header {
+.header-font-dark {
   color: $header-font-dark;
 }
 
-.dark-font-body {
+.body-font-dark {
   color: $body-font-dark;
 }
 
-.light-font-header {
+.header-font-light {
   color: $header-font-light;
 }
 
-.light-font-body {
+.body-font-light {
   color: $body-font-light;
 }
 
-.light-font-body {
-  color: $body-font-light;
-}
-
-.light-font-blue {
+.body-font-blue {
   color: $body-font-blue;
 }
 
 .headline {
-  font-size: 1.75rem;
+  font-size: 1.4rem;
 }
 
 ////// ~ HOMEPAGE ~ //////
@@ -70,7 +66,6 @@ div#pro-intro {
 .button-homepage {
   border-style: solid;
   border-width: 2px;
-  border-color: $pro-blue;
   cursor: pointer;
   font-family: Lato, helvetica, arial, sans-serif !important;
   font-weight: 400;
@@ -82,18 +77,23 @@ div#pro-intro {
   -webkit-appearance: none;
   -webkit-border-radius: 0;
   display: inline-block;
-  padding-top: .5rem;
-  padding-right: 2rem;
-  padding-bottom: .5rem;
-  padding-left: 2rem;
+  padding: .5rem;
   font-size: 1rem;
   background-color: transparent;
-  color: $header-font-light;
-  transition: white 300ms ease-out;
+  transition: 300ms ease-out;
   width: 100%;
 
 }
 
+.button-homepage.dark {
+  color: $body-font-dark;
+  border-color: $body-font-dark;
+}
+
+.button-homepage.blue {
+  color: $pro-blue;
+  border-color: $pro-blue;
+}
 
 ////// ~ SPACING ~ //////
 
