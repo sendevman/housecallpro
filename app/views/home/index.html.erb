@@ -1,60 +1,66 @@
 <div class="row">
 
-  <div id="user-intro" class="large-6 medium-6 small-12 columns header-font-light homepage-div-wrapper">
+  <div id="homepage-consumer-div" class="large-6 medium-6 small-12 columns header-font-light homepage-div-wrapper">
 
     <div class="homepage-padding">
 
       <div class="row">
         <div class="large-12 medium-12 small-12 columns">
           <h1 class="header-font-light">HOUSE<span class="lato-bold">CALL</span><span class="TM">™</span></h1>
-          <span class="headline">for consumers</span>
+          <span class="headline">book, schedule, pay... all from your phone</span>
           <div class="vertical-space-20"></div>
         </div>
       </div>
 
       <div class="row">
-        <div class="large-3 medium-3 small-3 columns">
-          <a href="#" class="button-homepage green"><%= image_tag("apple_logo_green.png", class: "button-logo", size: "15x15") %> &nbsp;&nbsp;iOS</a>
+        <div class="large-3 medium-5 small-6 columns">
+          <a href="#" class="button-homepage white"><%= image_tag("mini-icon_apple_logo.png", class: "button-logo", size: "15x15") %> &nbsp;iOS</a>
         </div>
-        <div class="large-3 medium-3 small-3 columns end">
-          <a href="#" class="button-homepage green"><%= image_tag("android_logo_green.png", class: "button-logo", size: "15x15") %> &nbsp;&nbspANDROID</a>
+        <div class="large-3 medium-5 small-6 columns end">
+          <a href="#" class="button-homepage white"><%= image_tag("mini-icon_android_logo.png", class: "button-logo", size: "15x15") %> &nbsp;ANDROID</a>
         </div>
       </div>
 
       <div class="row">
-        <div class="large-6 medium-6 small-6 columns end">
-          <a href="#" class="button-homepage green">LEARN MORE</a>
+        <div class="large-6 medium-10 small-12 columns end">
+          <a href="#" class="button-homepage white">LEARN MORE</a>
         </div>
       </div>
 
     </div>
 
-    <%= image_tag("homepage_consumer.png") %>
+    <%= image_tag("homepage_consumer.png", class: "show-for-medium-up") %>
+    <%= image_tag("homepage_consumer_small.png", class: "show-for-small") %>
 
   </div>
 
-  <div id="pro-intro" class="large-6 medium-6 small-12 columns header-font-light homepage-div-wrapper">
+  <div id="homepage-pro-div" class="large-6 medium-6 small-12 columns header-font-light homepage-div-wrapper">
 
     <div class="homepage-padding">
 
       <div class="row">
         <div class="large-12 medium-12 small-12 columns">
           <h1 class="header-font-light">HOUSE<span class="lato-bold">CALL</span> PRO<span class="TM">™</span></h1>
-          <span class="headline">for service professionals</span>
+          <span class="headline">mobilize your services business</span>
           <div class="vertical-space-20"></div>
         </div>
       </div>
 
       <div class="row">
-        <div class="large-6 medium-6 small-6 columns end">
-          <a href="#" class="button-homepage blue">GET STARTED</a>
+        <div class="large-6 medium-10 small-12 columns end">
+          <a href="/pro" class="button-homepage blue">GET STARTED</a>
         </div>
       </div>
 
     </div>
 
-    <%= image_tag("homepage_pro.png") %>
+    <%= image_tag("homepage_pro.png", class: "show-for-medium-up") %>
+    <%= image_tag("homepage_pro_small.png", class: "show-for-small") %>
 
   </div>
 
+</div>
+
+<div id="homepage-copyright-medium-up" class="show-for-medium-up">
+ <a href="/about">© Codefied Inc.</a>
 </div>
