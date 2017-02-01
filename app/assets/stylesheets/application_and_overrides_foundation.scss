@@ -40,12 +40,14 @@
 .hc-tagline {
   font-size: 1.4rem;
   color: $header-font-dark;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .hc-subheader {
   font-size: 0.9rem;
   color: $body-font-gray;
-  margin-top: 1rem;
+  margin-bottom: 2.5rem;
   line-height: 1.5rem;
 }
 
@@ -81,8 +83,8 @@ font-weight: 700;
   text-align: center;
 }
 
-.rounded-blue-label {
-  background-color: $housecall-red;
+.tag-cloud {
+  background-color: $pro-blue;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -92,6 +94,18 @@ font-weight: 700;
   margin-bottom: inherit;
   padding: .25rem 0.5rem 0.25rem 1.5rem;
   font-size: 1.3rem;
+}
+
+.tag-cloud.red {
+  background-color: $housecall-red;
+}
+
+.tag-cloud.yellow {
+  background-color: #d9af49;
+}
+
+.tag-cloud.green {
+  background-color: #648832;
 }
 
 ////// ~ SPACING ~ //////
@@ -112,6 +126,11 @@ font-weight: 700;
 }
 
 ////// ~ HEADER & FOOTER ~ //////
+
+.hc-logo-padding {
+  padding: 1rem;
+}
+
 
 #homepage-copyright-medium-up{
   height: 50px;
@@ -157,10 +176,6 @@ div#homepage-pro-div {
   margin-left: -0.9375rem;
 }
 
-.homepage-padding {
-  padding: 1rem;
-}
-
 .button-homepage {
   border-style: solid;
   border-width: 0px;
@@ -201,16 +216,19 @@ div#homepage-pro-div {
   margin-right: .3rem;
 }
 
-////// ~ HOMEPAGE ~ //////
+////// ~ PRO PAGE ~ //////
 
 
 div#hero {
+  height: 400px;
   width: 100%;
-  background-color: $pro-background;
+  background: url("pro_hero.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
 }
 
 div#industries-tag-cloud {
   background-color: $pro-background;
-  height: 200px;
 }
 
