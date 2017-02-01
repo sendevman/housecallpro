@@ -4,8 +4,12 @@
 
 ////// ~ FONT STYLES ~ //////
 
-.lato-bold {
+.lato-black {
   font-weight: 900;
+}
+
+.lato-bold {
+  font-weight: 700;
 }
 
 .lato-light {
@@ -33,20 +37,17 @@
 
 .hc-header {
   font-size: 1.6rem;
-  color: $pro-blue;
   text-transform: uppercase;
 }
 
 .hc-tagline {
   font-size: 1.4rem;
-  color: $header-font-dark;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
 .hc-subheader {
   font-size: 0.9rem;
-  color: $body-font-gray;
   margin-bottom: 2.5rem;
   line-height: 1.5rem;
 }
@@ -124,6 +125,7 @@ font-weight: 700;
   height: 20px;
   width: 1px;
 }
+
 
 ////// ~ HEADER & FOOTER ~ //////
 
@@ -220,7 +222,6 @@ div#homepage-pro-div {
 
 
 div#hero {
-  height: 400px;
   width: 100%;
   background: url("pro_hero.jpg");
   background-size: 100%;
