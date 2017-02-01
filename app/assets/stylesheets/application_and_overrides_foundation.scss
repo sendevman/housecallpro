@@ -32,6 +32,12 @@
 }
 
 .hc-header {
+  font-size: 1.6rem;
+  color: $pro-blue;
+  text-transform: uppercase;
+}
+
+.hc-tagline {
   font-size: 1.4rem;
   color: $header-font-dark;
 }
@@ -41,6 +47,28 @@
   color: $body-font-gray;
   margin-top: 1rem;
   line-height: 1.5rem;
+}
+
+.hc-callout {
+  font-size: 0.75rem;
+  color: $pro-blue;
+  margin-top: 1rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+font-weight: 700;
+}
+
+.hc-callout:after {
+  display: inline-block;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  content: ">";
+  font-family: "Trebuchet MS";
+  font-weight: normal;
+  position: relative;
+  top: -1px;
+  margin-left: 3px;
+  line-height: 1;
 }
 
 .TM {
@@ -53,6 +81,18 @@
   text-align: center;
 }
 
+.rounded-blue-label {
+  background-color: $housecall-red;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  margin-bottom: inherit;
+  padding: .25rem 0.5rem 0.25rem 1.5rem;
+  font-size: 1.3rem;
+}
 
 ////// ~ SPACING ~ //////
 
@@ -163,9 +203,14 @@ div#homepage-pro-div {
 
 ////// ~ HOMEPAGE ~ //////
 
-div#homepage-consumer-div {
-  height: 100vh;
-  background: url("homepage_consumer_background.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+
+div#hero {
+  width: 100%;
+  background-color: $pro-background;
 }
+
+div#industries-tag-cloud {
+  background-color: $pro-background;
+  height: 200px;
+}
+
