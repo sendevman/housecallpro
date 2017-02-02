@@ -152,14 +152,14 @@ font-weight: 700;
 
 ////// ~ HOMEPAGE ~ //////
 
-div#homepage-consumer-div {
+#homepage-consumer-div {
   height: 100vh;
   background: url("homepage_consumer_background.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
-div#homepage-pro-div {
+#homepage-pro-div {
   height: 100vh;
   background: url("homepage_pro_background.jpg");
   background-size: 100% 100%;
@@ -221,7 +221,7 @@ div#homepage-pro-div {
 ////// ~ PRO PAGE ~ //////
 
 
-div#hero {
+#hero {
   width: 100%;
   background: url("pro_hero.jpg");
   background-size: 100%;
@@ -229,7 +229,7 @@ div#hero {
 
 }
 
-div#industries-tag-cloud {
+#industries-tag-cloud {
   background-color: $pro-background;
 }
 
