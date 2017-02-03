@@ -200,9 +200,22 @@ font-weight: 700;
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: $pro-background;
+  max-height: 500px;
 }
 
 #industries-tag-cloud {
   background-color: $pro-background;
 }
 
+
+.hero-div-wrapper {
+  position: relative;
+}
+
+.hero-div-wrapper img {
+  position: absolute;
+  z-index: -1;
+  max-width: 100%;
+  top: 0;
+  margin-left: -0.9375rem;
+}
