@@ -8,7 +8,7 @@
 }
 
 .lato-bold {
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .lato-light {
@@ -118,8 +118,7 @@
 }
 
 .test-background {
-  padding-left: -10px;
-  padding-right: -10px;
+  padding-bottom: 40px;
 }
 
 .magellan-sign-up-button {
@@ -229,10 +228,6 @@
   max-height: 500px;
 }
 
-#industries-tag-cloud {
-  background-color: $pro-background;
-}
-
 .hero-div-wrapper {
   position: relative;
 }
@@ -243,4 +238,12 @@
   max-width: 100%;
   top: 0;
   margin-left: -0.9375rem;
+}
+
+#industries {
+  background-color: $pro-background;
+}
+
+#features {
+  background-color: $pro-background-darker;
 }
