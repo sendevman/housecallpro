@@ -92,8 +92,8 @@ font-weight: 700;
   white-space: nowrap;
   display: inline-block;
   position: relative;
-  padding: .25rem 0.4rem 0.25rem .4rem;
-  font-size: 1.1rem;
+  padding: .3rem 0.6rem 0.25rem .4rem;
+  font-size: .9rem;
   margin: .4rem .25rem .4rem .25rem;
 }
 
@@ -107,6 +107,10 @@ font-weight: 700;
 
 .tag-cloud.green {
   background-color: #648832;
+}
+
+.mini-icon {
+  margin-bottom: 3px;
 }
 
 ////// ~ SPACING & ALIGNMENT ~ //////
