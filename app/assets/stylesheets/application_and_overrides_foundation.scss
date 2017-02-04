@@ -31,13 +31,17 @@
   color: $body-font-light;
 }
 
-.body-font-blue {
-  color: $body-font-blue;
+.body-font-hc-blue {
+  color: $pro-blue;
+}
+
+.body-font-secondary-blue {
+  color: $body-font-secondary-blue;
 }
 
 .hc-header {
   font-size: 1.6rem;
-  line-height: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .hc-tagline {
@@ -111,6 +115,11 @@ font-weight: 700;
 
 .mini-icon {
   margin-bottom: 3px;
+}
+
+.test-background {
+  padding-left: -10px;
+  padding-right: -10px;
 }
 
 ////// ~ SPACING & ALIGNMENT ~ //////
