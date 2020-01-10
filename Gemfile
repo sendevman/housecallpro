@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'bundler'
-gem 'rails', '3.2.11'
+gem 'rails', '3.2.17'
 
 gem 'mysql2'
 gem 'jquery-rails'
